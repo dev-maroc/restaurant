@@ -23,9 +23,7 @@ img{
 }
 .all{
   display: flex;
-  justify-content: center;
-  gap: 60px;          
-  flex-wrap: wrap;    
+  justify-content: center;   
   margin-top: 50px;
 }
 .des{
@@ -206,6 +204,11 @@ h1 {
     display: block;
     margin: 10px auto;
 }
+  .localisation h2  {
+  background-color:  #a93226;
+  padding: 20px;
+  color: azure;
+ }
 
 
  
