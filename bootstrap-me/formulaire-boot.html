@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulaire</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body>
+    <div class="container w-50 m-auto">
+        <h1>Manipulation de formulaires</h1>
+        <form>
+            <div class="form-group mb-3">
+                <label for="email " class="form-label">Email address</label>
+                <input type="email" class="form-control" id="email" />
+            </div>
+            <div class="mb-3">
+                <label for="formselect" class="form-label">select menu</label>
+                <select id="formselect" class="form-select">
+                    <option selected>open this select menu</option>
+                    <option value="1">one</option>
+                    <option value="2">tow</option>
+                    <option value="3">tree</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" value="choix 1">
+                    <label class="form-check-label">choix 1</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" value="choix 2">
+                    <label class="form-check-label" class="form-label">choix 2</label>
+                </div>
+            </div>
+            <div class="mb-3">
+                <label for="range1" class="form-label">example range</label>
+                <input class="form-range" type="range" id="range1">
+            </div>
+
+            <div class="mb-3">
+                <label for="formfile" class="form-label">default file input exampel</label>
+                <input class="form-control" type="file" id="formfile">
+            </div>
+            <div class="mb-3">
+                <div class="mb-3 input-group">
+                    <span class="input-group-text">@</span>
+                    <input class="form-control" type="text" placeholder="username">
+                </div>
+            </div>
+            <div class="mb-3">
+                <h2>formulaire en deux colonnes</h2>
+                <div class="row">
+                    <div class="col">
+                        <label for="email " class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="email" />
+                    </div>
+                    <div class="col">
+                        <label for="email " class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="email" />
+                    </div>
+                </div>
+            </div>
+            <botton type="submit" class="btn btn-primary w-100">sign in</botton>
+        </form>
+    </div>
+    
+</body>
+</html>

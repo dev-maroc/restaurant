@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Grid Figure 2</title>
+<link  href="bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="p-4">
+
+    <div class="container-fluid p-3" style="background-color: #99e2f2; border: 2px solid #0000cd; border-radius: 10px;">
+        
+        <div class="row mb-2">
+            <div class="col-12 text-center p-2" style="border: 1.5px solid #0000cd;">
+                Premier niveau avec 12 colonnes
+            </div>
+        </div>
+
+        <div class="row g-2">
+            <div class="col-8">
+                <div class="p-2 h-100" style="border: 1.5px solid #0000cd;">
+                    <p class="text-center mb-2">Second niveau avec 8 colonnes</p>
+                    
+                    <div class="row g-2">
+                        <div class="col-4">
+                            <div class="p-4 h-100 d-flex align-items-center justify-content-center text-center" style="border: 1.5px solid #0000cd; min-height: 250px;">
+                                Troisième niveau avec 4 colonnes
+                            </div>
+                        </div>
+                        <div class="col-8">
+                            <div class="p-2 h-100" style="border: 1.5px solid #0000cd;">
+                                <p class="text-center mb-2">Troisième niveau avec 6 colonnes</p>
+                                
+                                <div class="row g-1">
+                                    <div class="col-4">
+                                        <div class="p-1 text-center" style="border: 1.5px solid #0000cd; font-size: 13px; min-height: 180px;">
+                                            Quatrième niveau avec 3 colonnes
+                                        </div>
+                                    </div>
+                                    <div class="col-8">
+                                        <div class="p-1 text-center" style="border: 1.5px solid #0000cd; font-size: 13px; min-height: 180px;">
+                                            Quatrième niveau avec 5 colonnes
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="p-2 h-100 d-flex align-items-start justify-content-center text-center" style="border: 1.5px solid #0000cd;">
+                    Second niveau avec 4 colonnes
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

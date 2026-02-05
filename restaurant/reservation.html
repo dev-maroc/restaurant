@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Réservation - Restaurant Ghda Mghribi</title>
+    <link rel="stylesheet" href="reservation.css">
+</head>
+<body>
+
+    <header>
+        <h1>📍 commander votre Table</h1>
+        <p>Veuillez remplir le formulaire ci-dessous pour confirmer votre venue.</p>
+    </header>
+
+    <div class="container-reser">
+        <form class="reser-form">
+            <div class="input-group">
+                <label>Nom complet</label>
+                <input type="text" placeholder="Votre nom..." required>
+            </div>
+
+            <div class="input-group">
+                <label>Téléphone</label>
+                <input type="tel" placeholder="06XXXXXXXX" required>
+            </div>
+
+            <div class="row">
+                <div class="input-group">
+                    <label>Date</label>
+                    <input type="date" required>
+                </div>
+                <div class="input-group">
+                    <label>Heure</label>
+                    <input type="time" required>
+                </div>
+            </div>
+
+            <div class="input-group">
+                <label>Nombre de personnes</label>
+                <select>
+                    <option value="1">1 Personne</option>
+                    <option value="2">2 Personnes</option>
+                    <option value="4">4 Personnes</option>
+                    <option value="6">Plus de 6 personnes</option>
+                </select>
+            </div>
+
+            <div class="input-group">
+                <label>Demandes spéciales (Optionnel)</label>
+                <textarea rows="3" placeholder="Ex: Allergies, Anniversaire..."></textarea>
+            </div>
+
+            <button type="submit" class="btn-confirm">Confirmer la Réservation</button>
+            <a href="index.html" class="back-link">Retour au menu</a>
+        </form>
+    </div>
+
+</body>
+</html>

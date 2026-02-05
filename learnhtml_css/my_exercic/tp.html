@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire de participation </title>
+</head>
+<body>
+    <h2>Formulaire de participation</h2>
+    <h4><i>compeletez le formulaire. les chanps par* sont opligatoires</i> </h4>
+    <form>
+        <fieldset>
+            <legend>CONTACT</legend>
+            <label for="nom">Nom *</label>
+            <input required placeholder="Nom Prenom" type=" text" name="nom" id=""><br> <br>
+
+            <label for="portable">Portable</label>
+            <input  type=" nomber"  placeholder="06xxxxxxxx" name="telefon" id=""><br> <br>
+
+            <label for="email">Email*</label>
+            <input  required placeholder="prenomnom@gmail.com" type="email" name="email" id=""><br> <br>
+
+            <label for="password">Password*</label>
+            <input  required  type="password" name="password" id=""><br> <br>
+        </fieldset><br>
+        <fieldset>
+            <legend>INFORMATION PERSONNELLES</legend>
+
+            <label for="age">Age*</label>
+            <input  required placeholder="xx" min="10" max="99" type="nomber" name="age" id="1"><br> <br>
+
+            <label for="ville">ville</label>
+            <select name="ville" id="">
+                <option>londen</option>
+                <option>parise</option>
+                <option>lhihe</option>
+            </select><br> <br>
+           <label for="msg"> voulez vous impliquez dans l'organisation</label><br>
+            <textarea type="msg" ></textarea>
+        </fieldset><br>
+        <fieldset>
+            <legend>CHOISISSEZ VOS DOMAINES FAVORIS</legend>
+            <input type="checkbox" name="domine" >
+            <label for="Informatique">Informatique</label>
+            <input type="checkbox" name="domine">
+            <label for="sciences">sciences</label>
+            <input type="checkbox" name="domine" >
+            <label for="culture">CULture</label>
+            <input type="checkbox" name="domine" >
+            <label for="social">Social</label>
+
+
+            <input type="checkbox" name="domaine" value="loubna">loubna
+        </fieldset>
+    </form>
+    <br> 
+    <input type="submit" value="envoyer">
+    <input type="reset" value="3AWED">
+   
+</body>
+</html>

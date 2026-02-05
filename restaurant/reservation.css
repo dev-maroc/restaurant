@@ -1,0 +1,89 @@
+.container-reser {
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+   
+}
+
+.reser-form {
+    background: white;
+    padding: 30px;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    text-align: left; 
+   
+}
+body{
+    margin: 0px;
+}
+h1{
+    background-color: rgb(139, 7, 7);
+    color: azure;
+    padding: 15px;
+    margin: 0px;
+}
+.input-group {
+    margin-bottom: 20px;
+    
+}
+
+.input-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #333;
+
+}
+
+.input-group input, 
+.input-group select, 
+.input-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 1em;
+    box-sizing: border-box; 
+}
+
+.row {
+    display: flex;
+    gap: 15px;
+}
+
+.row .input-group {
+    flex: 1;
+}
+
+.btn-confirm {
+    width: 100%;
+    background-color: #1b5e20; 
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-confirm:hover {
+    background-color: #2e7d32;
+    transform: translateY(-2px);
+}
+
+.back-link {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    color: #666;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
