@@ -1,32 +1,45 @@
+
+body{
+    margin:0;
+}
+header {
+    text-align: center;
+    background-color: rgb(139, 7, 7);
+    color: azure;
+    padding: 15px 10px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 30px;
+}
+
+header p {
+    margin-top: 8px;
+    font-size: 20px;
+    color: #fff3f0;
+}
+
+
 .container-reser {
     display: flex;
     justify-content: center;
     padding: 40px 20px;
-   
 }
 
+
 .reser-form {
-    background: white;
+background-color: rgb(249, 220, 207);
     padding: 30px;
     width: 100%;
     max-width: 500px;
     border-radius: 20px;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
     text-align: left; 
-   
 }
-body{
-    margin: 0px;
-}
-h1{
-    background-color: rgb(139, 7, 7);
-    color: azure;
-    padding: 15px;
-    margin: 0px;
-}
+
 .input-group {
     margin-bottom: 20px;
-    
 }
 
 .input-group label {
@@ -34,19 +47,30 @@ h1{
     font-weight: bold;
     margin-bottom: 8px;
     color: #333;
-
 }
 
-.input-group input, 
-.input-group select, 
+
+.input-group input,
+.input-group select,
 .input-group textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid #ddd;
     border-radius: 10px;
     font-size: 1em;
-    box-sizing: border-box; 
+    box-sizing: border-box;
+    background-color: #fff7f0; 
+    transition: 0.3s;
 }
+
+.input-group input:focus,
+.input-group select:focus,
+.input-group textarea:focus {
+    border-color: #ff7e5f;
+    box-shadow: 0 0 5px rgba(255, 126, 95, 0.5);
+    outline: none;
+}
+
 
 .row {
     display: flex;
@@ -54,26 +78,27 @@ h1{
 }
 
 .row .input-group {
-    flex: 1;
+    width: 50%;
 }
+
 
 .btn-confirm {
     width: 100%;
-    background-color: #1b5e20; 
+    background-color: #ff7e5f;
     color: white;
     padding: 15px;
     border: none;
     border-radius: 10px;
-    font-size: 1.1em;
+    font-size:18px;
     font-weight: bold;
-    cursor: pointer;
     transition: 0.3s;
 }
 
 .btn-confirm:hover {
-    background-color: #2e7d32;
+    background: #ffb86f;
     transform: translateY(-2px);
 }
+
 
 .back-link {
     display: block;
@@ -81,9 +106,11 @@ h1{
     margin-top: 15px;
     color: #666;
     text-decoration: none;
-    font-size: 0.9em;
+    font-size: 15px;
+    transition: 0.3s;
 }
 
 .back-link:hover {
+    color: #ff7e5f;
     text-decoration: underline;
 }
