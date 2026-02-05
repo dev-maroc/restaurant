@@ -49,11 +49,16 @@ header{
  .intro{
   position:relative;
   z-index:1;
-  color:white;
   text-align:center;
   top:40%;
+  opacity:0;
+  animation: show 2s ease0in forwards;
 }
-
+@keyframes show {
+ to{
+  opacity:1;
+ }
+}
 nav{
   background: #c0392b;
   padding:20px;
