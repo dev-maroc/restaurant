@@ -1,19 +1,15 @@
 *{
 margin: 0;
 padding:0;
-
-
 }
  
 b{
   font-size: 80px;
- opacity:0;
- annimation:show 2s ease-in forwards;
- @keyframes show{
-  to{
-   opacity:1;
-  }
- }
+  color: #b71c1c;
+}
+p{
+  color: #b71c1c;
+}
 
 img{
   width: 200px;
@@ -24,7 +20,7 @@ img{
 }
 .all{
   display: flex;
-  justify-content: center;   
+  justify-content: center;
   margin-top: 50px;
 }
 .des{
@@ -35,7 +31,7 @@ img{
 }
 .fi{
   background-color: #c0392b;
-  color: aliceblue;
+  color: rgb(225, 232, 239);
   padding: 20px;
   border-radius: 20px;
   width: 100px;
@@ -56,26 +52,6 @@ header{
   color:white;
   text-align:center;
   top:40%;
-}
-
- 
-.logo{
-
-  position:absolute;
-
-  top:90px;
-
-  left:30px;
-
-  color:white;
-
-  font-size:32px;
-
-  font-weight:bold;
-
-  z-index:1;
-  
-
 }
 
 nav{
@@ -103,16 +79,6 @@ nav a{
 
 nav a:hover{
   background: rgba(255,255,255,0.2);
-}
-.social{
-    color: white;
-    font-size: 20px;
-    margin: 0 10px;
-    text-decoration: none;
-}
-i{
-    border: 1px solid white;
-    padding: 10px;
 }
 
  body {
