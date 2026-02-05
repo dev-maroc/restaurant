@@ -14,12 +14,7 @@ b{
    opacity:1;
   }
  }
-body{
 
-  background:gainsboro;
-  
-
-}
 img{
   width: 200px;
   height: 200px;
@@ -51,20 +46,10 @@ img{
 header{
   position:relative;
   height:100dvh;
-  overflow:hidden;
   margin-left: 200px; 
 }
  
-header video{
-  position:absolute;
-  top:50%;
-  left:50%;
-  min-width:100%;
-  min-height:100%;
-  transform:translate(-50%,-50%);
-  z-index:-1;
-  margin-top: 0; 
-}
+
  .intro{
   position:relative;
   z-index:1;
@@ -72,17 +57,7 @@ header video{
   text-align:center;
   top:40%;
 }
-header::after{
 
-  
-width: 600px;
-  position:absolute;
-  top:40px;
-  left:0;
-  height:50%;
-  background-image: url(images/La salle de réception du Palais Soleiman_.jpeg);
-  z-index: 1;
-}
  
 .logo{
 
